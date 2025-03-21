@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>David Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Heroes section for profile -->
+    <div class="px-4 py-5 my-5 text-center" id="profile">
+      <img class="d-block mx-auto mb-4" src="./assets/david-photo.jpeg" alt="" width="300" height="300">
+      <h1 class="display-5 fw-bold">I'm David</h1>
+      <h4 class="display-6">An Experienced Backend Engineer</h4>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          I am a backend engineer with a strong passion for building scalable, high-performance systems. 
+          With extensive experience in Golang, Kafka, PostgreSQL, and distributed system architecture, 
+          I specialize in designing and optimizing backend services that handle large-scale data processing and real-time event-driven applications.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4" onclick="location.href='#resume'">Resume</button>
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3" onclick="location.href='#contact'">Contact Me</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Heroes section for resume -->
+    <div class="px-4 py-5 my-5 text-center" id="resume">
+      <h1 class="display-5 fw-bold">Resume</h1>      
+      <div class="row mt-4">
+        <div class="col-4">
+          <div class="card">
+            <div class="card-header">
+              (Dummy Resume) Startup GHI
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Backend Developer</h5>
+              <p class="card-text">Built authentication and authorization systems with JWT and OAuth, enhancing security for millions of users.</p>
+              <p class="card-text">Developed and deployed a caching strategy using Redis, reducing response times by 70%.</p>
+              <p class="card-text">Refactored monolithic services into microservices, improving system maintainability and deployment speed.</p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-4">
+          <div class="card">
+            <div class="card-header">
+              (Dummy Resume) Fintech JKL
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Backend Engineer</h5>
+              <p class="card-text">Integrated third-party payment gateways and optimized transaction workflows, reducing processing time by 30%.</p>
+              <p class="card-text">Implemented fraud detection algorithms using machine learning models to flag suspicious transactions in real-time.</p>
+              <p class="card-text">Developed automated reporting tools for financial transactions, improving auditing efficiency.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-header">
+              (Dummy Resume) E-Commerce MNO
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Backend Engineer</h5>
+              <p class="card-text">Implemented caching strategies with Redis and optimized database queries, handling millions of daily requests efficiently.</p>
+              <p class="card-text">Developed a recommendation engine that personalized user experiences based on browsing history and purchase patterns.</p>
+              <p class="card-text">Designed and deployed an order tracking system with real-time notifications via WebSockets.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <div class="card-header">
+              (Dummy Resume) Startup GHI
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Backend Developer</h5>
+              <p class="card-text">Built authentication and authorization systems with JWT and OAuth, enhancing security for millions of users.</p>
+              <p class="card-text">Developed and deployed a caching strategy using Redis, reducing response times by 70%.</p>
+              <p class="card-text">Refactored monolithic services into microservices, improving system maintainability and deployment speed.</p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-4">
+          <div class="card">
+            <div class="card-header">
+              (Dummy Resume) Fintech JKL
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Backend Engineer</h5>
+              <p class="card-text">Integrated third-party payment gateways and optimized transaction workflows, reducing processing time by 30%.</p>
+              <p class="card-text">Implemented fraud detection algorithms using machine learning models to flag suspicious transactions in real-time.</p>
+              <p class="card-text">Developed automated reporting tools for financial transactions, improving auditing efficiency.</p>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+    <!-- Heroes section for contact -->
+    <div class="px-4 py-5 my-5 text-center" id="contact">
+      <h1 class="display-5 fw-bold">Contact</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          I'm currently open to new opportunities and collaborations. 
+          If you'd like to get in touch, feel free to reach out to me via email or LinkedIn.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Email</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">LinkedIn</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          Logo
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#">twitter</a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#">instagram</a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#">facebook</a></li>
+      </ul>
+    </footer>
+    
+    <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
